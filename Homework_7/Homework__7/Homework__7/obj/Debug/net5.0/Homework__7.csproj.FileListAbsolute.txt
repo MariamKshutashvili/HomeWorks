@@ -1,0 +1,16 @@
+C:\Users\Yoga\source\repos\Homework__7\Homework__7\bin\Debug\net5.0\Homework__7.exe
+C:\Users\Yoga\source\repos\Homework__7\Homework__7\bin\Debug\net5.0\Homework__7.deps.json
+C:\Users\Yoga\source\repos\Homework__7\Homework__7\bin\Debug\net5.0\Homework__7.runtimeconfig.json
+C:\Users\Yoga\source\repos\Homework__7\Homework__7\bin\Debug\net5.0\Homework__7.runtimeconfig.dev.json
+C:\Users\Yoga\source\repos\Homework__7\Homework__7\bin\Debug\net5.0\Homework__7.dll
+C:\Users\Yoga\source\repos\Homework__7\Homework__7\bin\Debug\net5.0\Homework__7.pdb
+C:\Users\Yoga\source\repos\Homework__7\Homework__7\obj\Debug\net5.0\Homework__7.csproj.AssemblyReference.cache
+C:\Users\Yoga\source\repos\Homework__7\Homework__7\obj\Debug\net5.0\Homework__7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yoga\source\repos\Homework__7\Homework__7\obj\Debug\net5.0\Homework__7.AssemblyInfoInputs.cache
+C:\Users\Yoga\source\repos\Homework__7\Homework__7\obj\Debug\net5.0\Homework__7.AssemblyInfo.cs
+C:\Users\Yoga\source\repos\Homework__7\Homework__7\obj\Debug\net5.0\Homework__7.csproj.CoreCompileInputs.cache
+C:\Users\Yoga\source\repos\Homework__7\Homework__7\obj\Debug\net5.0\Homework__7.dll
+C:\Users\Yoga\source\repos\Homework__7\Homework__7\obj\Debug\net5.0\refint\Homework__7.dll
+C:\Users\Yoga\source\repos\Homework__7\Homework__7\obj\Debug\net5.0\Homework__7.pdb
+C:\Users\Yoga\source\repos\Homework__7\Homework__7\obj\Debug\net5.0\Homework__7.genruntimeconfig.cache
+C:\Users\Yoga\source\repos\Homework__7\Homework__7\obj\Debug\net5.0\ref\Homework__7.dll
