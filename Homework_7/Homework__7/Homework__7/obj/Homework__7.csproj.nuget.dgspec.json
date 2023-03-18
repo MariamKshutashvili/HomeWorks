@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Yoga\\source\\repos\\Homework__7\\Homework__7\\Homework__7.csproj": {}
+    "C:\\Users\\Yoga\\OneDrive\\desktop\\HomeWorksdz\\Homework_7\\Homework__7\\Homework__7\\Homework__7.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Yoga\\source\\repos\\Homework__7\\Homework__7\\Homework__7.csproj": {
+    "C:\\Users\\Yoga\\OneDrive\\desktop\\HomeWorksdz\\Homework_7\\Homework__7\\Homework__7\\Homework__7.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yoga\\source\\repos\\Homework__7\\Homework__7\\Homework__7.csproj",
+        "projectUniqueName": "C:\\Users\\Yoga\\OneDrive\\desktop\\HomeWorksdz\\Homework_7\\Homework__7\\Homework__7\\Homework__7.csproj",
         "projectName": "Homework__7",
-        "projectPath": "C:\\Users\\Yoga\\source\\repos\\Homework__7\\Homework__7\\Homework__7.csproj",
+        "projectPath": "C:\\Users\\Yoga\\OneDrive\\desktop\\HomeWorksdz\\Homework_7\\Homework__7\\Homework__7\\Homework__7.csproj",
         "packagesPath": "C:\\Users\\Yoga\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yoga\\source\\repos\\Homework__7\\Homework__7\\obj\\",
+        "outputPath": "C:\\Users\\Yoga\\OneDrive\\desktop\\HomeWorksdz\\Homework_7\\Homework__7\\Homework__7\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Yoga\\AppData\\Roaming\\NuGet\\NuGet.Config",
