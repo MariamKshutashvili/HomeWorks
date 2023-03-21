@@ -43,13 +43,12 @@ namespace Homework__9
                 var wokrHours = Convert.ToInt32(Console.ReadLine());
                 wH.Add(wokrHours);
             }
-           
-            
+                   
             newEmployee.DayHours(wH[0], wH[1], wH[2], wH[3],
                 wH[4], wH[5], wH[6]);
-           Console.WriteLine("average working hours "+newEmployee.AverageHours(wH[0], wH[1], wH[2], wH[3],
+           Console.WriteLine("average working hours -->"+newEmployee.AverageHours(wH[0], wH[1], wH[2], wH[3],
                 wH[4], wH[5], wH[6]));
-            Console.WriteLine("all working hours"+wH.Sum());
+            Console.WriteLine("all working hours -->  "+wH.Sum());
             
             Dictionary<string, int> numbProf = new Dictionary<string, int>()
             {
@@ -82,8 +81,11 @@ namespace Homework__9
             if (wH.Sum()> 50)
             {
                 salaryfinal = salary.Sum() * (int)1.2;
+            } else
+            {
+                salaryfinal = salary.Sum();
             }
-            Console.WriteLine("final salary is  "+salaryfinal);
+            Console.WriteLine("final salary is  "+ salaryfinal);
  
             Console.WriteLine("From the total paid salary, to state taxes goes -->  "
                 + facebook.AmountTax(salaryfinal));
@@ -91,7 +93,8 @@ namespace Homework__9
             #endregion
            
             #region N2
-            Console.WriteLine("hello, choose a favourite subject. \n " +
+            Console.WriteLine("\n N2:\n" +
+                "hello, choose a favourite subject. \n " +
                 "just pick a number 1, 2, 3");
 
             var subj= Console.ReadLine();
@@ -115,6 +118,29 @@ namespace Homework__9
             teacher1.IsCertified=Convert.ToBoolean(Console.ReadLine());
             Console.WriteLine("in this case, you should know:   "+
                 teacher1.Test(student1.RandomSubject(subj)));
+
+            #endregion
+
+            #region N3
+            var kk = new String('*', 60);
+            Console.WriteLine("\n N3\n lazy and good students <3");
+            var kargi = new GoodStudent();
+            var zarmaci = new LazyStudent();
+            var NewClass = new ClassRoom();
+            NewClass.AllMethods(kargi, zarmaci);
+
+
+
+
+
+
+
+
+
+
+
+
+
 
             #endregion
 
