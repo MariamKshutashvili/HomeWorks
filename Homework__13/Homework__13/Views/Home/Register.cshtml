@@ -1,0 +1,68 @@
+﻿@model Homework__13.Models.info
+
+@{
+    ViewData["Title"] = "Register";
+}
+<h1>@ViewData["Title"]</h1>
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width  initial-scale=1.0" />
+    <title>Index</title>
+</head>
+<body>
+
+    @using (Html.BeginForm("Index", "Home", FormMethod.Post))
+    {
+        <table cellpadding="0" cellspacing="0" >
+            <tr>
+                <th colspan="2" align="center">Please, fill in the information </th>
+            </tr>
+            <tr>
+                <td>First Name:    </td>
+                <td>
+                    @Html.TextBoxFor(m => m.firstName)
+                </td>
+            </tr>
+            <tr>
+                <td >Last Name:    </td>
+                <td>
+                    @Html.TextBoxFor(m => m.lastName)
+                </td>
+            </tr>
+            <tr>
+                <td>Doctor:    </td>
+                <td>
+                    @Html.DropDownListFor(m => m.doctor, new List<SelectListItem>
+                { new SelectListItem{Text="Pediatrician", Value="Pediatrician"},
+                new SelectListItem{Text="Dentist", Value="Dentist"}}, "Please select")
+                </td>
+            </tr>
+            <tr>
+                <td>Time:    </td>
+                <td>
+                    @Html.EditorFor(m => m.time)
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Submit" /></td>
+            </tr>
+
+            <tr>
+                <td ></td>
+                <td>
+                    <button style="background-color: #008CBA;" type="button" onclick=
+                    "location.href='@Url.Action("appointments")'">See the list of appointments</button>
+                    </td>
+            </tr>
+        </table>
+    }
+    <p >
+        <img src="https://riseapps.co/wp-content/uploads/2020/05/img_Doctor-Appointment-App-1024x768-min-1024x768.jpg"
+             alt=" appointment with doc" width="600" height="350" align="top">
+    </p>
+
+</body>
+</html>
